@@ -1,3 +1,3 @@
-name = "mcp-entreprises-server"
+name = "recherche-entreprises-fr--mcp"
 main = "worker.js"
 compatibility_date = "2025-05-15"
