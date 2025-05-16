@@ -1,0 +1,30 @@
+{
+  "name": "siren-lookup",
+  "version": "1.0.0",
+  "description": "Lookup company information by SIREN via French open government API",
+  "protocol": "http",
+  "host": "{{HOST}}",
+  "port": "{{PORT}}",
+  "endpoints": [
+    {
+      "id": "lookupBySiren",
+      "path": "/lookup",
+      "method": "GET",
+      "description": "Fetch company data for a given SIREN",
+      "parameters": [
+        {
+          "name": "siren",
+          "in": "query",
+          "required": true,
+          "schema": { "type": "string" },
+          "description": "Company SIREN number"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful response with company info"
+        }
+      }
+    }
+  ]
+}
