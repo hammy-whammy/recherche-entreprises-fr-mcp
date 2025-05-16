@@ -1,1 +1,0 @@
-[![smithery badge](https://smithery.ai/badge/@hammy-whammy/recherche-entreprises-fr-mcp)](https://smithery.ai/server/@hammy-whammy/recherche-entreprises-fr-mcp)

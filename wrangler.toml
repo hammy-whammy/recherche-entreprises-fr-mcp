@@ -1,3 +1,0 @@
-name = "mcp-entreprises-server"
-main = "worker.js"
-compatibility_date = "2025-05-15"
