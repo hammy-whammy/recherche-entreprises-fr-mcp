@@ -1,0 +1,9 @@
+{
+  "connections": [
+    {
+      "id": "local-mcp",
+      "type": "mcp",
+      "url": "http://localhost:3000"
+    }
+  ]
+}
